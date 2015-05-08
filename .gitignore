@@ -5,3 +5,4 @@
 /build
 app/src/main/java/com/jupiter/on/tetsuo/neofastcat/NFCApplication.java
 app/src/main/res/values/strings.xml
+.idea

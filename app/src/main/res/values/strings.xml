@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NeoFastCat</string>
+
+    <string name="info_base_mode">1.Enter the number of players \n2.Press the button to start registering the players with NFC \n3. Touch the devices \n4. All registered? Wait for the starting sound after the coundown is over! \n5. When you have finished press the button to see who is the winner!</string>
+    <string name="action_settings">Settings</string>
+    <string name="parse_app_id">uerDzxRpV1kyEzPdSDqA10XJb8m1oSQiCmpXCVci</string>
+    <string name="parse_client_key">U0K27LprwJIVmWl2Xh3WRsjvhxUxVbbXm20YABzD</string>
+    <string name="facebook_app_id">456229291206197</string>
+    <string name="twitter_consumer_key">4kQ9rYNFeBOuy7ciJ97Xx8Nl0</string>
+    <string name="twitter_consumer_secret">svIGiwa7dFdYgC0dry5Eo2KdHJt3h7PITiZ4v8lhp4ESpgNpIT</string>
+    <string name="title_activity_practice_mode">PracticeModeActivity</string>
+    <string name="title_activity_connect_dots_one_shot">ConnectDotsOneShotActivity</string>
+    <string name="title_activity_base_mode">BaseModeActivity</string>
+    <string name="title_activity_dispatch_login">DispatchLoginActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register_to_game">RegisterToGameActivity</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+</resources>

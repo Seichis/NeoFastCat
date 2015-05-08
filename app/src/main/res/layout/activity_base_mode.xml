@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jupiter.on.tetsuo.neofastcat.BaseModeActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <EditText
+            android:id="@+id/input_num_players_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infotv2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/infotv2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Enter the number of players"
+            />
+
+        <TextView
+            android:id="@+id/player_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_num_players_et"
+            android:layout_marginBottom="10dp"
+
+            android:text="Registered Players : "
+            />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player_listview"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/start_register_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/player_listview"
+            android:background="@drawable/base_mode_style"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="Start registering" />
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/start_register_button"
+            android:background="@drawable/register_button_style"
+            android:layout_centerHorizontal="true"
+            android:text="Ready to play!" />
+
+        <Button
+            android:id="@+id/results_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/play_button"
+            android:background="@drawable/logout_button_style"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="Get results" />
+
+    </RelativeLayout>
+</ScrollView>
